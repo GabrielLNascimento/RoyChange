@@ -1,0 +1,49 @@
+<div class="container">
+    <h1>Clash Royale Wordle</h1>
+    
+    {{#if tempoRestante}}
+        <div class="timer">
+            Próximo personagem em: 
+            <span id="timer">{{tempoRestante.minutos}}:{{tempoRestante.segundos}}</span>
+        </div>
+    {{/if}}
+    
+    <div class="search-container">
+        <form action="/tentativa" method="POST">
+            <input type="text" name="nome" id="searchInput" placeholder="{{#if acertou}}Parabéns! Você acertou!{{else}}Digite o nome do personagem{{/if}}" autocomplete="off" {{#if acertou}}disabled{{/if}}>
+            <div id="searchResults" class="search-results"></div>
+            <button type="submit" {{#if acertou}}disabled{{/if}}>Tentar</button>
+        </form>
+    </div>
+
+    <div class="tentativas">
+        {{#each tentativas}}
+            <div class="tentativa-card">
+                <img src="{{this.imagem}}" alt="{{this.nome}}">
+                <div class="info-container">
+                    <div class="info-item nome {{#if this.resultados.nome}}correct{{else}}incorrect{{/if}}">
+                        {{this.nome}}
+                    </div>
+                    <div class="info-item elixir {{#if this.resultados.elixir.correto}}correct{{else}}incorrect{{/if}}">
+                        Elixir: {{this.elixir}}
+                        {{#unless this.resultados.elixir.correto}}
+                            <span class="arrow">{{#if this.resultados.elixir.maior}}↑{{else}}↓{{/if}}</span>
+                        {{/unless}}
+                    </div>
+                    <div class="info-item raridade {{#if this.resultados.raridade.correto}}correct{{else}}incorrect{{/if}}">
+                        Raridade: {{this.raridade}}
+                    </div>
+                    <div class="info-item evolucao {{#if this.resultados.evolucao}}correct{{else}}incorrect{{/if}}">
+                        Evolução: {{#if this.evolucao}}Sim{{else}}Não{{/if}}
+                    </div>
+                    <div class="info-item terrestre {{#if this.resultados.terrestre}}correct{{else}}incorrect{{/if}}">
+                        Terrestre: {{#if this.terrestre}}Sim{{else}}Não{{/if}}
+                    </div>
+                    <div class="info-item vitoria {{#if this.resultados.condicaoVitoria}}correct{{else}}incorrect{{/if}}">
+                        Condição Vitória: {{#if this.condicaoVitoria}}Sim{{else}}Não{{/if}}
+                    </div>
+                </div>
+            </div>
+        {{/each}}
+    </div>
+</div> 

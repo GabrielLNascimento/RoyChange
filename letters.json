@@ -1,0 +1,362 @@
+[
+  {
+    "nome": "Cavaleiro",
+    "elixir": 3,
+    "raridade": "comum",
+    "evolucao": true,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/cavaleiro.png"
+  },
+  {
+    "nome": "Gigante",
+    "elixir": 5,
+    "raridade": "rara",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": true,
+    "imagem": "/img/gigante.png"
+  },
+  {
+    "nome": "Mago",
+    "elixir": 5,
+    "raridade": "rara",
+    "evolucao": true,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/mago.png"
+  },
+  {
+    "nome": "Flechas",
+    "elixir": 3,
+    "raridade": "comum",
+    "evolucao": false,
+    "terrestre": false,
+    "condicaoVitoria": false,
+    "imagem": "/img/flechas.png"
+  },
+  {
+    "nome": "Bombardeiro",
+    "elixir": 3,
+    "raridade": "comum",
+    "evolucao": true,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/bombardeiro.png"
+  },
+  {
+    "nome": "Arqueiras",
+    "elixir": 3,
+    "raridade": "comum",
+    "evolucao": true,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/arqueiras.png"
+  },
+  {
+    "nome": "Bola de fogo",
+    "elixir": 4,
+    "raridade": "rara",
+    "evolucao": false,
+    "terrestre": false,
+    "condicaoVitoria": false,
+    "imagem": "/img/bola-de-fogo.png"
+  },
+  {
+    "nome": "mini pekka",
+    "elixir": 4,
+    "raridade": "rara",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/mini-pekka.png"
+  },
+  {
+    "nome": "mosqueteira",
+    "elixir": 4,
+    "raridade": "rara",
+    "evolucao": true,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/mosqueteira.png"
+  },
+  {
+    "nome": "principe",
+    "elixir": 5,
+    "raridade": "epica",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/principe.png"
+  },
+  {
+    "nome": "bebe dragão",
+    "elixir": 4,
+    "raridade": "epica",
+    "evolucao": false,
+    "terrestre": false,
+    "condicaoVitoria": false,
+    "imagem": "/img/bebe-dragao.png"
+  },
+  {
+    "nome": "exercito de esqueletos",
+    "elixir": 3,
+    "raridade": "epica",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/exercito-de-esqueletos.png"
+  },
+  {
+    "nome": "bruxa",
+    "elixir": 5,
+    "raridade": "epica",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/bruxa.png"
+  },
+  {
+    "nome": "goblins lanceiros",
+    "elixir": 2,
+    "raridade": "comum",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/goblins-lanceiros.png"
+  },
+  {
+    "nome": "goblins",
+    "elixir": 2,
+    "raridade": "comum",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/goblins.png"
+  },
+  {
+    "nome": "cabana de goblins",
+    "elixir": 5,
+    "raridade": "rara",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/cabana-de-goblins.png"
+  },
+  {
+    "nome": "valquiria",
+    "elixir": 4,
+    "raridade": "rara",
+    "evolucao": true,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/valquiria.png"
+  },
+  {
+    "nome": "relampago",
+    "elixir": 6,
+    "raridade": "epica",
+    "evolucao": false,
+    "terrestre": false,
+    "condicaoVitoria": false,
+    "imagem": "/img/relampago.png"
+  },
+  {
+    "nome": "barril de goblins",
+    "elixir": 3,
+    "raridade": "epica",
+    "evolucao": true,
+    "terrestre": false,
+    "condicaoVitoria": false,
+    "imagem": "/img/barril-de-goblins.png"
+  },
+  {
+    "nome": "esqueletos",
+    "elixir": 1,
+    "raridade": "comum",
+    "evolucao": true,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/esqueletos.png"
+  },
+  {
+    "nome": "servos",
+    "elixir": 3,
+    "raridade": "comum",
+    "evolucao": false,
+    "terrestre": false,
+    "condicaoVitoria": false,
+    "imagem": "/img/servos.png"
+  },
+  {
+    "nome": "lapide",
+    "elixir": 3,
+    "raridade": "rara",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/lapide.png"
+  },
+  {
+    "nome": "torre de bombas",
+    "elixir": 4,
+    "raridade": "rara",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/torre-de-bombas.png"
+  },
+  {
+    "nome": "esqueleto gigante",
+    "elixir": 6,
+    "raridade": "epica",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/esqueleto-gigante.png"
+  },
+  {
+    "nome": "balão",
+    "elixir": 5,
+    "raridade": "epica",
+    "evolucao": false,
+    "terrestre": false,
+    "condicaoVitoria": true,
+    "imagem": "/img/balao.png"
+  },
+  {
+    "nome": "canhão",
+    "elixir": 3,
+    "raridade": "comum",
+    "evolucao": true,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/canhao.png"
+  },
+  {
+    "nome": "barbaros",
+    "elixir": 5,
+    "raridade": "comum",
+    "evolucao": true,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/barbaros.png"
+  },
+  {
+    "nome": "foguete",
+    "elixir": 6,
+    "raridade": "rara",
+    "evolucao": false,
+    "terrestre": false,
+    "condicaoVitoria": false,
+    "imagem": "/img/foguete.png"
+  },
+  {
+    "nome": "cabana de barbaros",
+    "elixir": 6,
+    "raridade": "rara",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/cabana-de-barbaros.png"
+  },
+  {
+    "nome": "furia",
+    "elixir": 2,
+    "raridade": "epica",
+    "evolucao": false,
+    "terrestre": false,
+    "condicaoVitoria": false,
+    "imagem": "/img/furia.png"
+  },
+  {
+    "nome": "x-besta",
+    "elixir": 6,
+    "raridade": "epica",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/x-besta.png"
+  },
+  {
+    "nome": "tesla",
+    "elixir": 4,
+    "raridade": "comum",
+    "evolucao": true,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/tesla.png"
+  },
+  {
+    "nome": "horda de servos",
+    "elixir": 5,
+    "raridade": "comum",
+    "evolucao": false,
+    "terrestre": false,
+    "condicaoVitoria": false,
+    "imagem": "/img/horda-de-servos.png"
+  },
+  {
+    "nome": "torre inferno",
+    "elixir": 5,
+    "raridade": "rara",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/torre-inferno.png"
+  },
+  {
+    "nome": "corredor",
+    "elixir": 4,
+    "raridade": "rara",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": true,
+    "imagem": "/img/corredor.png"
+  },
+  {
+    "nome": "gelo",
+    "elixir": 4,
+    "raridade": "epica",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/gelo.png"
+  },
+  {
+    "nome": "pekka",
+    "elixir": 7,
+    "raridade": "epica",
+    "evolucao": true,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/pekka.png"
+  },
+  {
+    "nome": "zap",
+    "elixir": 2,
+    "raridade": "comum",
+    "evolucao": true,
+    "terrestre": false,
+    "condicaoVitoria": false,
+    "imagem": "/img/zap.png"
+  },
+  {
+    "nome": "espelho",
+    "elixir": 0,
+    "raridade": "epica",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/espelho.png"
+  },
+  {
+    "nome": "morteiro",
+    "elixir": 4,
+    "raridade": "comum",
+    "evolucao": true,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/morteiro.png"
+  }
+] 
