@@ -2,8 +2,16 @@ const express = require('express');
 const exphbs = require('express-handlebars');
 const fs = require('fs');
 const path = require('path');
+const session = require('express-session');
 
 const app = express();
+
+// Configuração da sessão
+app.use(session({
+    secret: 'seu_segredo_aqui',
+    resave: false,
+    saveUninitialized: true
+}));
 
 // Configuração Handlebars
 app.engine('handlebars', exphbs.engine());
@@ -13,43 +21,48 @@ app.set('view engine', 'handlebars');
 app.use(express.static('public'));
 app.use(express.urlencoded({ extended: true }));
 
-// Variáveis globais
-let cartaSorteada = null;
-let tentativas = [];
-let cartasUsadas = new Set();
-let ultimoSorteio = null;
+// Função para inicializar dados da sessão
+function inicializarSessao(req) {
+    if (!req.session.jogo) {
+        req.session.jogo = {
+            cartaSorteada: null,
+            tentativas: [],
+            cartasUsadas: [],
+            ultimoSorteio: null
+        };
+    }
+}
 
 // Carregar cartas
 const cartas = JSON.parse(fs.readFileSync('letters.json', 'utf8'));
 
 // Funções auxiliares
-function precisaNovaCarta() {
+function precisaNovaCarta(sessao) {
     const agora = new Date();
     
-    // Se não tem carta sorteada ou último sorteio
-    if (!cartaSorteada || !ultimoSorteio) {
+    if (!sessao.cartaSorteada || !sessao.ultimoSorteio) {
         return true;
     }
 
-    // Calcula diferença em horas
-    const diffHoras = Math.abs(agora - ultimoSorteio) / 36e5; // 36e5 é 1 hora em millisegundos
+    const diffHoras = Math.abs(agora - new Date(sessao.ultimoSorteio)) / 36e5;
     return diffHoras >= 1;
 }
 
-function sortearCarta() {
-    if (precisaNovaCarta()) {
-        cartaSorteada = cartas[Math.floor(Math.random() * cartas.length)];
-        ultimoSorteio = new Date();
-        // Reseta as tentativas e cartas usadas
-        tentativas = [];
-        cartasUsadas = new Set();
-        console.log('Nova carta sorteada:', cartaSorteada.nome);
+function sortearCarta(req) {
+    inicializarSessao(req);
+    
+    if (precisaNovaCarta(req.session.jogo)) {
+        req.session.jogo.cartaSorteada = cartas[Math.floor(Math.random() * cartas.length)];
+        req.session.jogo.ultimoSorteio = new Date();
+        req.session.jogo.tentativas = [];
+        req.session.jogo.cartasUsadas = [];
+        console.log('Nova carta sorteada para sessão:', req.session.id);
     }
-    return cartaSorteada;
+    return req.session.jogo.cartaSorteada;
 }
 
-function verificarCartaUsada(nome) {
-    return cartasUsadas.has(nome);
+function verificarCartaUsada(req, nome) {
+    return req.session.jogo.cartasUsadas.includes(nome);
 }
 
 function verificarNome(nome) {
@@ -81,48 +94,45 @@ function compararTentativa(tentativa, cartaCorreta) {
 
 // Rotas
 app.get('/', (req, res) => {
-    const cartaAtual = sortearCarta();
-    const acertou = tentativas.some(t => t.resultados.nome === true);
+    inicializarSessao(req);
+    const cartaAtual = sortearCarta(req);
+    const acertou = req.session.jogo.tentativas.some(t => t.resultados.nome === true);
     
-    // Calcula tempo restante para próximo sorteio
     let tempoRestante = null;
-    if (ultimoSorteio) {
-        const proximoSorteio = new Date(ultimoSorteio.getTime() + 60 * 60 * 1000); // +1 hora
+    if (req.session.jogo.ultimoSorteio) {
+        const proximoSorteio = new Date(new Date(req.session.jogo.ultimoSorteio).getTime() + 60 * 60 * 1000);
         const agora = new Date();
         const diff = proximoSorteio - agora;
         
-        // Converte para minutos e segundos
         const minutos = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
         const segundos = Math.floor((diff % (1000 * 60)) / 1000);
         
-        tempoRestante = {
-            minutos,
-            segundos
-        };
+        tempoRestante = { minutos, segundos };
     }
     
     res.render('home', {
         cartas: cartas,
-        tentativas: tentativas,
+        tentativas: req.session.jogo.tentativas,
         acertou: acertou,
         tempoRestante: tempoRestante
     });
 });
 
 app.post('/tentativa', (req, res) => {
+    inicializarSessao(req);
     const { nome } = req.body;
     
     if (!verificarNome(nome)) {
         return res.redirect('/?erro=carta-invalida');
     }
     
-    if (verificarCartaUsada(nome)) {
+    if (verificarCartaUsada(req, nome)) {
         return res.redirect('/?erro=carta-usada');
     }
     
-    const resultado = compararTentativa(nome, cartaSorteada);
-    cartasUsadas.add(nome);
-    tentativas.push(resultado);
+    const resultado = compararTentativa(nome, req.session.jogo.cartaSorteada);
+    req.session.jogo.cartasUsadas.push(nome);
+    req.session.jogo.tentativas.push(resultado);
     
     res.redirect('/');
 });
