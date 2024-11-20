@@ -86,7 +86,9 @@ function compararTentativa(tentativa, cartaCorreta) {
                 maior: cartaCorreta.raridade > carta.raridade
             },
             evolucao: carta.evolucao === cartaCorreta.evolucao,
-            terrestre: carta.terrestre === cartaCorreta.terrestre,
+            tipo: carta.tipo === cartaCorreta.tipo,
+            danoArea: carta.danoArea === cartaCorreta.danoArea,
+            danoCorpoCorpo: carta.danoCorpoCorpo === cartaCorreta.danoCorpoCorpo,
             condicaoVitoria: carta.condicaoVitoria === cartaCorreta.condicaoVitoria
         }
     };

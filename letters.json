@@ -4,8 +4,10 @@
     "elixir": 3,
     "raridade": "comum",
     "evolucao": true,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": false,
+    "danoCorpoCorpo": true,
     "imagem": "/img/cavaleiro.png"
   },
   {
@@ -13,8 +15,10 @@
     "elixir": 5,
     "raridade": "rara",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": true,
+    "tipo": "terrestre",
+    "danoArea": false,
+    "danoCorpoCorpo": true,
     "imagem": "/img/gigante.png"
   },
   {
@@ -22,8 +26,10 @@
     "elixir": 5,
     "raridade": "rara",
     "evolucao": true,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": true,
+    "danoCorpoCorpo": false,
     "imagem": "/img/mago.png"
   },
   {
@@ -31,8 +37,10 @@
     "elixir": 3,
     "raridade": "comum",
     "evolucao": false,
-    "terrestre": false,
     "condicaoVitoria": false,
+    "tipo": "feitiço",
+    "danoArea": true,
+    "danoCorpoCorpo": false,
     "imagem": "/img/flechas.png"
   },
   {
@@ -40,8 +48,10 @@
     "elixir": 3,
     "raridade": "comum",
     "evolucao": true,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": true,
+    "danoCorpoCorpo": false,
     "imagem": "/img/bombardeiro.png"
   },
   {
@@ -49,8 +59,10 @@
     "elixir": 3,
     "raridade": "comum",
     "evolucao": true,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": false,
+    "danoCorpoCorpo": false,
     "imagem": "/img/arqueiras.png"
   },
   {
@@ -58,8 +70,10 @@
     "elixir": 4,
     "raridade": "rara",
     "evolucao": false,
-    "terrestre": false,
     "condicaoVitoria": false,
+    "tipo": "feitiço",
+    "danoArea": true,
+    "danoCorpoCorpo": false,
     "imagem": "/img/bola-de-fogo.png"
   },
   {
@@ -67,8 +81,10 @@
     "elixir": 4,
     "raridade": "rara",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": false,
+    "danoCorpoCorpo": true,
     "imagem": "/img/mini-pekka.png"
   },
   {
@@ -76,8 +92,10 @@
     "elixir": 4,
     "raridade": "rara",
     "evolucao": true,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": false,
+    "danoCorpoCorpo": false,
     "imagem": "/img/mosqueteira.png"
   },
   {
@@ -85,8 +103,10 @@
     "elixir": 5,
     "raridade": "epica",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": false,
+    "danoCorpoCorpo": true,
     "imagem": "/img/principe.png"
   },
   {
@@ -94,8 +114,10 @@
     "elixir": 4,
     "raridade": "epica",
     "evolucao": false,
-    "terrestre": false,
     "condicaoVitoria": false,
+    "tipo": "aereo",
+    "danoArea": true,
+    "danoCorpoCorpo": false,
     "imagem": "/img/bebe-dragao.png"
   },
   {
@@ -103,8 +125,10 @@
     "elixir": 3,
     "raridade": "epica",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": false,
+    "danoCorpoCorpo": true,
     "imagem": "/img/exercito-de-esqueletos.png"
   },
   {
@@ -112,8 +136,10 @@
     "elixir": 5,
     "raridade": "epica",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": true,
+    "danoCorpoCorpo": false,
     "imagem": "/img/bruxa.png"
   },
   {
@@ -121,8 +147,10 @@
     "elixir": 2,
     "raridade": "comum",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": false,
+    "danoCorpoCorpo": false,
     "imagem": "/img/goblins-lanceiros.png"
   },
   {
@@ -130,8 +158,10 @@
     "elixir": 2,
     "raridade": "comum",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": false,
+    "danoCorpoCorpo": true,
     "imagem": "/img/goblins.png"
   },
   {
@@ -139,8 +169,10 @@
     "elixir": 5,
     "raridade": "rara",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "construcao",
+    "danoArea": false,
+    "danoCorpoCorpo": true,
     "imagem": "/img/cabana-de-goblins.png"
   },
   {
@@ -148,8 +180,10 @@
     "elixir": 4,
     "raridade": "rara",
     "evolucao": true,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": true,
+    "danoCorpoCorpo": true,
     "imagem": "/img/valquiria.png"
   },
   {
@@ -157,8 +191,10 @@
     "elixir": 6,
     "raridade": "epica",
     "evolucao": false,
-    "terrestre": false,
     "condicaoVitoria": false,
+    "tipo": "feitiço",
+    "danoArea": false,
+    "danoCorpoCorpo": false,
     "imagem": "/img/relampago.png"
   },
   {
@@ -166,8 +202,10 @@
     "elixir": 3,
     "raridade": "epica",
     "evolucao": true,
-    "terrestre": false,
     "condicaoVitoria": false,
+    "tipo": "aereo",
+    "danoArea": false,
+    "danoCorpoCorpo": true,
     "imagem": "/img/barril-de-goblins.png"
   },
   {
@@ -175,8 +213,10 @@
     "elixir": 1,
     "raridade": "comum",
     "evolucao": true,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": false,
+    "danoCorpoCorpo": true,
     "imagem": "/img/esqueletos.png"
   },
   {
@@ -184,8 +224,10 @@
     "elixir": 3,
     "raridade": "comum",
     "evolucao": false,
-    "terrestre": false,
     "condicaoVitoria": false,
+    "tipo": "aereo",
+    "danoArea": false,
+    "danoCorpoCorpo": false,
     "imagem": "/img/servos.png"
   },
   {
@@ -193,8 +235,10 @@
     "elixir": 3,
     "raridade": "rara",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "construcao",
+    "danoArea": false,
+    "danoCorpoCorpo": true,
     "imagem": "/img/lapide.png"
   },
   {
@@ -202,8 +246,10 @@
     "elixir": 4,
     "raridade": "rara",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "construcao",
+    "danoArea": true,
+    "danoCorpoCorpo": false,
     "imagem": "/img/torre-de-bombas.png"
   },
   {
@@ -211,8 +257,10 @@
     "elixir": 6,
     "raridade": "epica",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": false,
+    "danoCorpoCorpo": true,
     "imagem": "/img/esqueleto-gigante.png"
   },
   {
@@ -220,8 +268,10 @@
     "elixir": 5,
     "raridade": "epica",
     "evolucao": false,
-    "terrestre": false,
     "condicaoVitoria": true,
+    "tipo": "aereo",
+    "danoArea": true,
+    "danoCorpoCorpo": true,
     "imagem": "/img/balao.png"
   },
   {
@@ -229,8 +279,10 @@
     "elixir": 3,
     "raridade": "comum",
     "evolucao": true,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "construcao",
+    "danoArea": false,
+    "danoCorpoCorpo": false,
     "imagem": "/img/canhao.png"
   },
   {
@@ -238,8 +290,10 @@
     "elixir": 5,
     "raridade": "comum",
     "evolucao": true,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": false,
+    "danoCorpoCorpo": true,
     "imagem": "/img/barbaros.png"
   },
   {
@@ -247,8 +301,10 @@
     "elixir": 6,
     "raridade": "rara",
     "evolucao": false,
-    "terrestre": false,
     "condicaoVitoria": false,
+    "tipo": "feitiço",
+    "danoArea": true,
+    "danoCorpoCorpo": false,
     "imagem": "/img/foguete.png"
   },
   {
@@ -256,8 +312,10 @@
     "elixir": 6,
     "raridade": "rara",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "construcao",
+    "danoArea": false,
+    "danoCorpoCorpo": true,
     "imagem": "/img/cabana-de-barbaros.png"
   },
   {
@@ -265,8 +323,10 @@
     "elixir": 2,
     "raridade": "epica",
     "evolucao": false,
-    "terrestre": false,
     "condicaoVitoria": false,
+    "tipo": "feitiço",
+    "danoArea": true,
+    "danoCorpoCorpo": false,
     "imagem": "/img/furia.png"
   },
   {
@@ -274,8 +334,10 @@
     "elixir": 6,
     "raridade": "epica",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "construcao",
+    "danoArea": false,
+    "danoCorpoCorpo": true,
     "imagem": "/img/x-besta.png"
   },
   {
@@ -283,8 +345,10 @@
     "elixir": 4,
     "raridade": "comum",
     "evolucao": true,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "construcao",
+    "danoArea": false,
+    "danoCorpoCorpo": false,
     "imagem": "/img/tesla.png"
   },
   {
@@ -292,8 +356,10 @@
     "elixir": 5,
     "raridade": "comum",
     "evolucao": false,
-    "terrestre": false,
     "condicaoVitoria": false,
+    "tipo": "aereo",
+    "danoArea": false,
+    "danoCorpoCorpo": false,
     "imagem": "/img/horda-de-servos.png"
   },
   {
@@ -301,8 +367,10 @@
     "elixir": 5,
     "raridade": "rara",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "construcao",
+    "danoArea": false,
+    "danoCorpoCorpo": false,
     "imagem": "/img/torre-inferno.png"
   },
   {
@@ -310,8 +378,10 @@
     "elixir": 4,
     "raridade": "rara",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": true,
+    "tipo": "terrestre",
+    "danoArea": false,
+    "danoCorpoCorpo": true,
     "imagem": "/img/corredor.png"
   },
   {
@@ -319,8 +389,10 @@
     "elixir": 4,
     "raridade": "epica",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "feitiço",
+    "danoArea": false,
+    "danoCorpoCorpo": false,
     "imagem": "/img/gelo.png"
   },
   {
@@ -328,8 +400,10 @@
     "elixir": 7,
     "raridade": "epica",
     "evolucao": true,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": false,
+    "danoCorpoCorpo": true,
     "imagem": "/img/pekka.png"
   },
   {
@@ -337,8 +411,10 @@
     "elixir": 2,
     "raridade": "comum",
     "evolucao": true,
-    "terrestre": false,
     "condicaoVitoria": false,
+    "tipo": "feitiço",
+    "danoArea": true,
+    "danoCorpoCorpo": false,
     "imagem": "/img/zap.png"
   },
   {
@@ -346,8 +422,10 @@
     "elixir": 0,
     "raridade": "epica",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "feitiço",
+    "danoArea": false,
+    "danoCorpoCorpo": false,
     "imagem": "/img/espelho.png"
   },
   {
@@ -355,8 +433,10 @@
     "elixir": 4,
     "raridade": "comum",
     "evolucao": true,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "construcao",
+    "danoArea": true,
+    "danoCorpoCorpo": false,
     "imagem": "/img/morteiro.png"
   },
   {
@@ -364,8 +444,10 @@
     "elixir": 6,
     "raridade": "rara",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "construcao",
+    "danoArea": false,
+    "danoCorpoCorpo": false,
     "imagem": "/img/coletor-de-elixir.png"
   },
   {
@@ -373,8 +455,10 @@
     "elixir": 8,
     "raridade": "epica",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": true,
+    "tipo": "terrestre",
+    "danoArea": false,
+    "danoCorpoCorpo": true,
     "imagem": "/img/golem.png"
   },
   {
@@ -382,8 +466,10 @@
     "elixir": 6,
     "raridade": "comum",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": true,
+    "tipo": "terrestre",
+    "danoArea": false,
+    "danoCorpoCorpo": false,
     "imagem": "/img/gigante-real.png"
   },
   {
@@ -391,8 +477,10 @@
     "elixir": 9,
     "raridade": "rara",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": false,
+    "danoCorpoCorpo": false,
     "imagem": "/img/tres-mosqueteiras.png"
   },
   {
@@ -400,8 +488,10 @@
     "elixir": 4,
     "raridade": "epica",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": true,
+    "danoCorpoCorpo": true,
     "imagem": "/img/principe-das-trevas.png"
   },
   {
@@ -409,8 +499,10 @@
     "elixir": 4,
     "raridade": "epica",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "feitiço",
+    "danoArea": true,
+    "danoCorpoCorpo": true,
     "imagem": "/img/veneno.png"
   },
   {
@@ -418,8 +510,10 @@
     "elixir": 3,
     "raridade": "lendaria",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": true,
+    "danoCorpoCorpo": false,
     "imagem": "/img/mago-de-gelo.png"
   },
   {
@@ -427,8 +521,10 @@
     "elixir": 3,
     "raridade": "lendaria",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": true,
+    "danoCorpoCorpo": false,
     "imagem": "/img/princesa.png"
   },
   {
@@ -436,8 +532,10 @@
     "elixir": 1,
     "raridade": "comum",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": true,
+    "danoCorpoCorpo": false,
     "imagem": "/img/espirito-de-fogo.png"
   },
   {
@@ -445,8 +543,10 @@
     "elixir": 4,
     "raridade": "rara",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "construcao",
+    "danoArea": true,
+    "danoCorpoCorpo": false,
     "imagem": "/img/fornalha.png"
   },
   {
@@ -454,8 +554,10 @@
     "elixir": 3,
     "raridade": "epica",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": false,
+    "danoCorpoCorpo": true,
     "imagem": "/img/guardas.png"
   },
   {
@@ -463,8 +565,10 @@
     "elixir": 7,
     "raridade": "lendaria",
     "evolucao": false,
-    "terrestre": false,
     "condicaoVitoria": true,
+    "tipo": "aereo",
+    "danoArea": false,
+    "danoCorpoCorpo": true,
     "imagem": "/img/lava-hound.png"
   },
   {
@@ -472,8 +576,10 @@
     "elixir": 3,
     "raridade": "lendaria",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": false,
+    "danoCorpoCorpo": true,
     "imagem": "/img/mineiro.png"
   },
   {
@@ -481,8 +587,10 @@
     "elixir": 6,
     "raridade": "lendaria",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": true,
+    "danoCorpoCorpo": false,
     "imagem": "/img/spark.png"
   },
   {
@@ -490,8 +598,10 @@
     "elixir": 5,
     "raridade": "epica",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": true,
+    "danoCorpoCorpo": false,
     "imagem": "/img/lancador.png"
   },
   {
@@ -499,8 +609,10 @@
     "elixir": 1,
     "raridade": "comum",
     "evolucao": true,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": true,
+    "danoCorpoCorpo": false,
     "imagem": "/img/espirito-de-gelo.png"
   },
   {
@@ -508,8 +620,10 @@
     "elixir": 4,
     "raridade": "lendaria",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": false,
+    "danoCorpoCorpo": true,
     "imagem": "/img/lenhador.png"
   },
   {
@@ -517,8 +631,10 @@
     "elixir": 3,
     "raridade": "rara",
     "evolucao": false,
-    "terrestre": false,
     "condicaoVitoria": false,
+    "tipo": "aereo",
+    "danoArea": false,
+    "danoCorpoCorpo": true,
     "imagem": "/img/mega-servo.png"
   },
   {
@@ -526,8 +642,10 @@
     "elixir": 4,
     "raridade": "lendaria",
     "evolucao": false,
-    "terrestre": false,
     "condicaoVitoria": false,
+    "tipo": "aereo",
+    "danoArea": false,
+    "danoCorpoCorpo": false,
     "imagem": "/img/dragao-infernal.png"
   },
   {
@@ -535,8 +653,10 @@
     "elixir": 2,
     "raridade": "rara",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": true,
+    "tipo": "terrestre",
+    "danoArea": false,
+    "danoCorpoCorpo": true,
     "imagem": "/img/golem-de-gelo.png"
   },
   {
@@ -544,8 +664,10 @@
     "elixir": 5,
     "raridade": "lendaria",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "feitiço",
+    "danoArea": false,
+    "danoCorpoCorpo": true,
     "imagem": "/img/cemiterio.png"
   },
   {
@@ -553,8 +675,10 @@
     "elixir": 3,
     "raridade": "epica",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "feitiço",
+    "danoArea": true,
+    "danoCorpoCorpo": false,
     "imagem": "/img/tornado.png"
   },
   {
@@ -562,17 +686,10 @@
     "elixir": 6,
     "raridade": "comum",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
-    "imagem": "/img/barbaros-de-elite.png"
-  },
-  {
-    "nome": "barbaros de elite",
-    "elixir": 6,
-    "raridade": "comum",
-    "evolucao": false,
-    "terrestre": true,
-    "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": false,
+    "danoCorpoCorpo": true,
     "imagem": "/img/barbaros-de-elite.png"
   },
   {
@@ -580,8 +697,10 @@
     "elixir": 3,
     "raridade": "epica",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "feitiço",
+    "danoArea": false,
+    "danoCorpoCorpo": false,
     "imagem": "/img/clone.png"
   },
   {
@@ -589,8 +708,10 @@
     "elixir": 4,
     "raridade": "lendaria",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": false,
+    "danoCorpoCorpo": false,
     "imagem": "/img/mago-eletrico.png"
   },
   {
@@ -598,8 +719,10 @@
     "elixir": 3,
     "raridade": "rara",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": false,
+    "danoCorpoCorpo": false,
     "imagem": "/img/goblin-dardo.png"
   },
   {
@@ -607,8 +730,10 @@
     "elixir": 5,
     "raridade": "epica",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": true,
+    "danoCorpoCorpo": false,
     "imagem": "/img/executor.png"
   },
   {
@@ -616,8 +741,10 @@
     "elixir": 4,
     "raridade": "rara",
     "evolucao": true,
-    "terrestre": true,
     "condicaoVitoria": true,
+    "tipo": "terrestre",
+    "danoArea": false,
+    "danoCorpoCorpo": true,
     "imagem": "/img/ariete-batalha.png"
   },
   {
@@ -625,8 +752,10 @@
     "elixir": 3,
     "raridade": "comum",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": false,
+    "danoCorpoCorpo": false,
     "imagem": "/img/gangue-goblins.png"
   },
   {
@@ -634,8 +763,10 @@
     "elixir": 3,
     "raridade": "lendaria",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": false,
+    "danoCorpoCorpo": true,
     "imagem": "/img/bandida.png"
   },
   {
@@ -643,8 +774,10 @@
     "elixir": 4,
     "raridade": "lendaria",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": false,
+    "danoCorpoCorpo": true,
     "imagem": "/img/bruxa-sombria.png"
   },
   {
@@ -652,8 +785,10 @@
     "elixir": 2,
     "raridade": "comum",
     "evolucao": true,
-    "terrestre": false,
     "condicaoVitoria": false,
+    "tipo": "aereo",
+    "danoArea": false,
+    "danoCorpoCorpo": true,
     "imagem": "/img/morcegos.png"
   },
   {
@@ -661,8 +796,10 @@
     "elixir": 5,
     "raridade": "epica",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": false,
+    "danoCorpoCorpo": false,
     "imagem": "/img/carrinho-canhao.png"
   },
   {
@@ -670,8 +807,10 @@
     "elixir": 4,
     "raridade": "rara",
     "evolucao": false,
-    "terrestre": false,
     "condicaoVitoria": false,
+    "tipo": "construcao",
+    "danoArea": false,
+    "danoCorpoCorpo": false,
     "imagem": "/img/maquina-voadora.png"
   },
   {
@@ -679,8 +818,10 @@
     "elixir": 3,
     "raridade": "comum",
     "evolucao": false,
-    "terrestre": false,
     "condicaoVitoria": true,
+    "tipo": "aereo",
+    "danoArea": false,
+    "danoCorpoCorpo": true,
     "imagem": "/img/barril-esqueletos.png"
   },
   {
@@ -688,8 +829,10 @@
     "elixir": 7,
     "raridade": "lendaria",
     "evolucao": true,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": true,
+    "danoCorpoCorpo": true,
     "imagem": "/img/megacavaleiro.png"
   },
   {
@@ -697,8 +840,10 @@
     "elixir": 4,
     "raridade": "rara",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": false,
+    "danoCorpoCorpo": false,
     "imagem": "/img/eletrocutadores.png"
   },
   {
@@ -706,8 +851,10 @@
     "elixir": 4,
     "raridade": "epica",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": true,
+    "danoCorpoCorpo": false,
     "imagem": "/img/cacador.png"
   },
   {
@@ -715,8 +862,10 @@
     "elixir": 3,
     "raridade": "lendaria",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": true,
+    "danoCorpoCorpo": true,
     "imagem": "/img/fantasma-real.png"
   },
   {
@@ -724,8 +873,10 @@
     "elixir": 4,
     "raridade": "lendaria",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": true,
+    "danoCorpoCorpo": false,
     "imagem": "/img/arqueiro-magico.png"
   },
   {
@@ -733,8 +884,10 @@
     "elixir": 2,
     "raridade": "epica",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "feitiço",
+    "danoArea": true,
+    "danoCorpoCorpo": true,
     "imagem": "/img/barril-barbaros.png"
   },
   {
@@ -742,8 +895,10 @@
     "elixir": 5,
     "raridade": "comum",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": false,
+    "danoCorpoCorpo": true,
     "imagem": "/img/patifes.png"
   },
   {
@@ -751,8 +906,10 @@
     "elixir": 5,
     "raridade": "rara",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": true,
+    "tipo": "terrestre",
+    "danoArea": false,
+    "danoCorpoCorpo": true,
     "imagem": "/img/porcos-reais.png"
   },
   {
@@ -760,8 +917,10 @@
     "elixir": 2,
     "raridade": "comum",
     "evolucao": false,
-    "terrestre": false,
     "condicaoVitoria": false,
+    "tipo": "feitiço",
+    "danoArea": true,
+    "danoCorpoCorpo": false,
     "imagem": "/img/bola-neve.png"
   },
   {
@@ -769,8 +928,10 @@
     "elixir": 7,
     "raridade": "comum",
     "evolucao": true,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": false,
+    "danoCorpoCorpo": true,
     "imagem": "/img/recrutas.png"
   },
   {
@@ -778,8 +939,10 @@
     "elixir": 6,
     "raridade": "epica",
     "evolucao": true,
-    "terrestre": true,
     "condicaoVitoria": true,
+    "tipo": "terrestre",
+    "danoArea": false,
+    "danoCorpoCorpo": true,
     "imagem": "/img/goblin-gigante.png"
   },
   {
@@ -787,8 +950,10 @@
     "elixir": 5,
     "raridade": "epica",
     "evolucao": true,
-    "terrestre": false,
     "condicaoVitoria": false,
+    "tipo": "aereo",
+    "danoArea": true,
+    "danoCorpoCorpo": false,
     "imagem": "/img/dragao-eletrico.png"
   },
   {
@@ -796,8 +961,10 @@
     "elixir": 5,
     "raridade": "lendaria",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": true,
+    "tipo": "terrestre",
+    "danoArea": false,
+    "danoCorpoCorpo": false,
     "imagem": "/img/domadora.png"
   },
   {
@@ -805,8 +972,10 @@
     "elixir": 2,
     "raridade": "epica",
     "evolucao": true,
-    "terrestre": true,
     "condicaoVitoria": true,
+    "tipo": "terrestre",
+    "danoArea": true,
+    "danoCorpoCorpo": true,
     "imagem": "/img/quebrador-muro.png"
   },
   {
@@ -814,8 +983,10 @@
     "elixir": 3,
     "raridade": "rara",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "feitiço",
+    "danoArea": true,
+    "danoCorpoCorpo": true,
     "imagem": "/img/terremoto.png"
   },
   {
@@ -823,8 +994,10 @@
     "elixir": 4,
     "raridade": "rara",
     "evolucao": true,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "construcao",
+    "danoArea": false,
+    "danoCorpoCorpo": true,
     "imagem": "/img/goblin-jaula.png"
   },
   {
@@ -832,8 +1005,10 @@
     "elixir": 3,
     "raridade": "lendaria",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": false,
+    "danoCorpoCorpo": true,
     "imagem": "/img/pescador.png"
   },
   {
@@ -841,8 +1016,10 @@
     "elixir": 3,
     "raridade": "rara",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": true,
+    "tipo": "terrestre",
+    "danoArea": false,
+    "danoCorpoCorpo": true,
     "imagem": "/img/golem-elixir.png"
   },
   {
@@ -850,8 +1027,10 @@
     "elixir": 4,
     "raridade": "rara",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": false,
+    "danoCorpoCorpo": true,
     "imagem": "/img/curadora.png"
   },
   {
@@ -859,8 +1038,10 @@
     "elixir": 3,
     "raridade": "comum",
     "evolucao": true,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": true,
+    "danoCorpoCorpo": false,
     "imagem": "/img/piro.png"
   },
   {
@@ -868,8 +1049,10 @@
     "elixir": 3,
     "raridade": "comum",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": false,
+    "danoCorpoCorpo": true,
     "imagem": "/img/encomenda.png"
   },
   {
@@ -877,8 +1060,10 @@
     "elixir": 1,
     "raridade": "comum",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": true,
+    "danoCorpoCorpo": false,
     "imagem": "/img/espirito-curador.png"
   },
   {
@@ -886,8 +1071,10 @@
     "elixir": 4,
     "raridade": "comum",
     "evolucao": false,
-    "terrestre": false,
     "condicaoVitoria": false,
+    "tipo": "aereo",
+    "danoArea": true,
+    "danoCorpoCorpo": false,
     "imagem": "/img/dragoes-esqueleto.png"
   },
   {
@@ -895,8 +1082,10 @@
     "elixir": 7,
     "raridade": "epica",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": true,
+    "tipo": "terrestre",
+    "danoArea": false,
+    "danoCorpoCorpo": true,
     "imagem": "/img/gigante-esqueleto.png"
   },
   {
@@ -904,8 +1093,10 @@
     "elixir": 1,
     "raridade": "comum",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": false,
+    "danoCorpoCorpo": false,
     "imagem": "/img/espirito-eletrico.png"
   },
   {
@@ -913,8 +1104,10 @@
     "elixir": 4,
     "raridade": "lendaria",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": false,
+    "danoCorpoCorpo": false,
     "imagem": "/img/bruxa-mae.png"
   },
   {
@@ -922,8 +1115,10 @@
     "elixir": 4,
     "raridade": "epica",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "construcao",
+    "danoArea": false,
+    "danoCorpoCorpo": true,
     "imagem": "/img/escavadeira-goblin.png"
   },
   {
@@ -931,8 +1126,10 @@
     "elixir": 4,
     "raridade": "campeão",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": false,
+    "danoCorpoCorpo": true,
     "imagem": "/img/cavaleiro-dourado.png"
   },
   {
@@ -940,8 +1137,10 @@
     "elixir": 5,
     "raridade": "campeão",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": false,
+    "danoCorpoCorpo": false,
     "imagem": "/img/rainha-arqueira.png"
   },
   {
@@ -949,8 +1148,10 @@
     "elixir": 4,
     "raridade": "campeão",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": true,
+    "danoCorpoCorpo": true,
     "imagem": "/img/rei-esqueleto.png"
   },
   {
@@ -958,8 +1159,10 @@
     "elixir": 4,
     "raridade": "campeão",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": false,
+    "danoCorpoCorpo": true,
     "imagem": "/img/mineiro-bombado.png"
   },
   {
@@ -967,8 +1170,10 @@
     "elixir": 4,
     "raridade": "campeão",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": false,
+    "danoCorpoCorpo": true,
     "imagem": "/img/monge.png"
   },
   {
@@ -976,8 +1181,10 @@
     "elixir": 4,
     "raridade": "lendaria",
     "evolucao": false,
-    "terrestre": false,
     "condicaoVitoria": false,
+    "tipo": "aereo",
+    "danoArea": false,
+    "danoCorpoCorpo": true,
     "imagem": "/img/fenix.png"
   },
   {
@@ -985,8 +1192,10 @@
     "elixir": 3,
     "raridade": "campeão",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": false,
+    "danoCorpoCorpo": false,
     "imagem": "/img/pequeno-principe.png"
   },
   {
@@ -994,8 +1203,10 @@
     "elixir": 3,
     "raridade": "epica",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "feitiço",
+    "danoArea": true,
+    "danoCorpoCorpo": true,
     "imagem": "/img/vacuo.png"
   },
   {
@@ -1003,8 +1214,10 @@
     "elixir": 4,
     "raridade": "rara",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": true,
+    "danoCorpoCorpo": false,
     "imagem": "/img/goblin-demolidor.png"
   },
   {
@@ -1012,8 +1225,10 @@
     "elixir": 5,
     "raridade": "lendaria",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "terrestre",
+    "danoArea": false,
+    "danoCorpoCorpo": true,
     "imagem": "/img/maquina-goblin.png"
   },
   {
@@ -1021,8 +1236,10 @@
     "elixir": 2,
     "raridade": "epica",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": false,
+    "tipo": "feitiço",
+    "danoArea": true,
+    "danoCorpoCorpo": true,
     "imagem": "/img/maldicao-goblin.png"
   },
   {
@@ -1030,8 +1247,10 @@
     "elixir": 2,
     "raridade": "rara",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": true,
+    "tipo": "terrestre",
+    "danoArea": false,
+    "danoCorpoCorpo": true,
     "imagem": "/img/arbusto-traicoeiro.png"
   },
   {
@@ -1039,8 +1258,10 @@
     "elixir": 5,
     "raridade": "campeão",
     "evolucao": false,
-    "terrestre": true,
     "condicaoVitoria": true,
+    "tipo": "terrestre",
+    "danoArea": false,
+    "danoCorpoCorpo": true,
     "imagem": "/img/goblinstein.png"
   }
-] 
+]

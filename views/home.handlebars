@@ -36,8 +36,14 @@
                     <div class="info-item evolucao {{#if this.resultados.evolucao}}correct{{else}}incorrect{{/if}}">
                         Evolução: {{#if this.evolucao}}Sim{{else}}Não{{/if}}
                     </div>
-                    <div class="info-item terrestre {{#if this.resultados.terrestre}}correct{{else}}incorrect{{/if}}">
-                        Terrestre: {{#if this.terrestre}}Sim{{else}}Não{{/if}}
+                    <div class="info-item dano-area {{#if this.resultados.danoArea}}correct{{else}}incorrect{{/if}}">
+                        Dano em Área: {{#if this.danoArea}}Sim{{else}}Não{{/if}}
+                    </div>
+                    <div class="info-item dano-corpo-corpo {{#if this.resultados.danoCorpoCorpo}}correct{{else}}incorrect{{/if}}">
+                        Dano Corpo a Corpo: {{#if this.danoCorpoCorpo}}Sim{{else}}Não{{/if}}
+                    </div>
+                    <div class="info-item tipo {{#if this.resultados.tipo}}correct{{else}}incorrect{{/if}}">
+                        Tipo: {{this.tipo}}
                     </div>
                     <div class="info-item vitoria {{#if this.resultados.condicaoVitoria}}correct{{else}}incorrect{{/if}}">
                         Condição Vitória: {{#if this.condicaoVitoria}}Sim{{else}}Não{{/if}}
