@@ -358,5 +358,689 @@
     "terrestre": true,
     "condicaoVitoria": false,
     "imagem": "/img/morteiro.png"
+  },
+  {
+    "nome": "coletor de elixir",
+    "elixir": 6,
+    "raridade": "rara",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/coletor-de-elixir.png"
+  },
+  {
+    "nome": "golem",
+    "elixir": 8,
+    "raridade": "epica",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": true,
+    "imagem": "/img/golem.png"
+  },
+  {
+    "nome": "gigante real",
+    "elixir": 6,
+    "raridade": "comum",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": true,
+    "imagem": "/img/gigante-real.png"
+  },
+  {
+    "nome": "tres mosqueteiras",
+    "elixir": 9,
+    "raridade": "rara",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/tres-mosqueteiras.png"
+  },
+  {
+    "nome": "principe das trevas",
+    "elixir": 4,
+    "raridade": "epica",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/principe-das-trevas.png"
+  },
+  {
+    "nome": "veneno",
+    "elixir": 4,
+    "raridade": "epica",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/veneno.png"
+  },
+  {
+    "nome": "mago de gelo",
+    "elixir": 3,
+    "raridade": "lendaria",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/mago-de-gelo.png"
+  },
+  {
+    "nome": "princesa",
+    "elixir": 3,
+    "raridade": "lendaria",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/princesa.png"
+  },
+  {
+    "nome": "espirito de fogo",
+    "elixir": 1,
+    "raridade": "comum",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/espirito-de-fogo.png"
+  },
+  {
+    "nome": "fornalha",
+    "elixir": 4,
+    "raridade": "rara",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/fornalha.png"
+  },
+  {
+    "nome": "guardas",
+    "elixir": 3,
+    "raridade": "epica",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/guardas.png"
+  },
+  {
+    "nome": "lava hound",
+    "elixir": 7,
+    "raridade": "lendaria",
+    "evolucao": false,
+    "terrestre": false,
+    "condicaoVitoria": true,
+    "imagem": "/img/lava-hound.png"
+  },
+  {
+    "nome": "spark",
+    "elixir": 6,
+    "raridade": "lendaria",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/spark.png"
+  },
+  {
+    "nome": "lancador",
+    "elixir": 5,
+    "raridade": "epica",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/lancador.png"
+  },
+  {
+    "nome": "espirito de gelo",
+    "elixir": 1,
+    "raridade": "comum",
+    "evolucao": true,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/espirito-de-gelo.png"
+  },
+  {
+    "nome": "lenhador",
+    "elixir": 4,
+    "raridade": "lendaria",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/lenhador.png"
+  },
+  {
+    "nome": "mega servo",
+    "elixir": 3,
+    "raridade": "rara",
+    "evolucao": false,
+    "terrestre": false,
+    "condicaoVitoria": false,
+    "imagem": "/img/mega-servo.png"
+  },
+  {
+    "nome": "dragao infernal",
+    "elixir": 4,
+    "raridade": "lendaria",
+    "evolucao": false,
+    "terrestre": false,
+    "condicaoVitoria": false,
+    "imagem": "/img/dragao-infernal.png"
+  },
+  {
+    "nome": "golem de gelo",
+    "elixir": 2,
+    "raridade": "rara",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": true,
+    "imagem": "/img/golem-de-gelo.png"
+  },
+  {
+    "nome": "cemiterio",
+    "elixir": 5,
+    "raridade": "lendaria",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/cemiterio.png"
+  },
+  {
+    "nome": "tornado",
+    "elixir": 3,
+    "raridade": "epica",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/tornado.png"
+  },
+  {
+    "nome": "barbaros de elite",
+    "elixir": 6,
+    "raridade": "comum",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/barbaros-de-elite.png"
+  },
+  {
+    "nome": "barbaros de elite",
+    "elixir": 6,
+    "raridade": "comum",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/barbaros-de-elite.png"
+  },
+  {
+    "nome": "clone",
+    "elixir": 3,
+    "raridade": "epica",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/clone.png"
+  },
+  {
+    "nome": "mago eletrico",
+    "elixir": 4,
+    "raridade": "lendaria",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/mago-eletrico.png"
+  },
+  {
+    "nome": "goblin com dardo",
+    "elixir": 3,
+    "raridade": "rara",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/goblin-dardo.png"
+  },
+  {
+    "nome": "executor",
+    "elixir": 5,
+    "raridade": "epica",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/executor.png"
+  },
+  {
+    "nome": "ariete de batalha",
+    "elixir": 4,
+    "raridade": "rara",
+    "evolucao": true,
+    "terrestre": true,
+    "condicaoVitoria": true,
+    "imagem": "/img/ariete-batalha.png"
+  },
+  {
+    "nome": "gangue de goblins",
+    "elixir": 3,
+    "raridade": "comum",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/gangue-goblins.png"
+  },
+  {
+    "nome": "bandida",
+    "elixir": 3,
+    "raridade": "lendaria",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/bandida.png"
+  },
+  {
+    "nome": "bandida",
+    "elixir": 3,
+    "raridade": "lendaria",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/bandida.png"
+  },
+  {
+    "nome": "bruxa sombria",
+    "elixir": 4,
+    "raridade": "lendaria",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/bruxa-sombria.png"
+  },
+  {
+    "nome": "morcegos",
+    "elixir": 2,
+    "raridade": "comum",
+    "evolucao": true,
+    "terrestre": false,
+    "condicaoVitoria": false,
+    "imagem": "/img/morcegos.png"
+  },
+  {
+    "nome": "carrinho de canhão",
+    "elixir": 5,
+    "raridade": "epica",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/carrinho-canhao.png"
+  },
+  {
+    "nome": "maquina voadora",
+    "elixir": 4,
+    "raridade": "rara",
+    "evolucao": false,
+    "terrestre": false,
+    "condicaoVitoria": false,
+    "imagem": "/img/maquina-voadora.png"
+  },
+  {
+    "nome": "barril de esqueletos",
+    "elixir": 3,
+    "raridade": "comum",
+    "evolucao": false,
+    "terrestre": false,
+    "condicaoVitoria": true,
+    "imagem": "/img/barril-esqueletos.png"
+  },
+  {
+    "nome": "megacavaleiro",
+    "elixir": 7,
+    "raridade": "lendaria",
+    "evolucao": true,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/megacavaleiro.png"
+  },
+  {
+    "nome": "eletrocutadores",
+    "elixir": 4,
+    "raridade": "rara",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/eletrocutadores.png"
+  },
+  {
+    "nome": "cacador",
+    "elixir": 4,
+    "raridade": "epica",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/cacador.png"
+  },
+  {
+    "nome": "fantasma real",
+    "elixir": 3,
+    "raridade": "lendaria",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/fantasma-real.png"
+  },
+  {
+    "nome": "Arqueiro magico",
+    "elixir": 4,
+    "raridade": "lendaria",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/arqueiro-magico.png"
+  },
+  {
+    "nome": "barril de barbaros",
+    "elixir": 2,
+    "raridade": "epica",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/barril-barbaros.png"
+  },
+  {
+    "nome": "patifes",
+    "elixir": 5,
+    "raridade": "comum",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/patifes.png"
+  },
+  {
+    "nome": "porcos reais",
+    "elixir": 5,
+    "raridade": "rara",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": true,
+    "imagem": "/img/porcos-reais.png"
+  },
+  {
+    "nome": "bola de neve",
+    "elixir": 2,
+    "raridade": "comum",
+    "evolucao": false,
+    "terrestre": false,
+    "condicaoVitoria": false,
+    "imagem": "/img/bola-neve.png"
+  },
+  {
+    "nome": "recrutas reais",
+    "elixir": 7,
+    "raridade": "comum",
+    "evolucao": true,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/recrutas.png"
+  },
+  {
+    "nome": "goblin gigante",
+    "elixir": 6,
+    "raridade": "epica",
+    "evolucao": true,
+    "terrestre": true,
+    "condicaoVitoria": true,
+    "imagem": "/img/goblin-gigante.png"
+  },
+  {
+    "nome": "dragao eletrico",
+    "elixir": 5,
+    "raridade": "epica",
+    "evolucao": true,
+    "terrestre": false,
+    "condicaoVitoria": false,
+    "imagem": "/img/dragao-eletrico.png"
+  },
+  {
+    "nome": "domadora",
+    "elixir": 5,
+    "raridade": "lendaria",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": true,
+    "imagem": "/img/domadora.png"
+  },
+  {
+    "nome": "quebradores de muro",
+    "elixir": 2,
+    "raridade": "epica",
+    "evolucao": true,
+    "terrestre": true,
+    "condicaoVitoria": true,
+    "imagem": "/img/quebrador-muro.png"
+  },
+  {
+    "nome": "terremoto",
+    "elixir": 3,
+    "raridade": "rara",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/terremoto.png"
+  },
+  {
+    "nome": "jaula de goblin",
+    "elixir": 4,
+    "raridade": "rara",
+    "evolucao": true,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/goblin-jaula.png"
+  },
+  {
+    "nome": "pescador",
+    "elixir": 3,
+    "raridade": "lendaria",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/pescador.png"
+  },
+  {
+    "nome": "golem de elixir",
+    "elixir": 3,
+    "raridade": "rara",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": true,
+    "imagem": "/img/golem-elixir.png"
+  },
+  {
+    "nome": "curadora guerreira",
+    "elixir": 4,
+    "raridade": "rara",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/curadora.png"
+  },
+  {
+    "nome": "pirotecnica",
+    "elixir": 3,
+    "raridade": "comum",
+    "evolucao": true,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/piro.png"
+  },
+  {
+    "nome": "encomenda real",
+    "elixir": 3,
+    "raridade": "comum",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/encomenda.png"
+  },
+  {
+    "nome": "espirito curador",
+    "elixir": 1,
+    "raridade": "comum",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/espirito-curador.png"
+  },
+  {
+    "nome": "dragoes esqueletos",
+    "elixir": 4,
+    "raridade": "comum",
+    "evolucao": false,
+    "terrestre": false,
+    "condicaoVitoria": false,
+    "imagem": "/img/dragoes-esqueleto.png"
+  },
+  {
+    "nome": "gigante eletrico",
+    "elixir": 7,
+    "raridade": "epica",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": true,
+    "imagem": "/img/gigante-esqueleto.png"
+  },
+  {
+    "nome": "espirito eletrico",
+    "elixir": 1,
+    "raridade": "comum",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/espirito-eletrico.png"
+  },
+  {
+    "nome": "bruxa mae",
+    "elixir": 4,
+    "raridade": "lendaria",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/bruxa-mae.png"
+  },
+  {
+    "nome": "escavadeira de goblins",
+    "elixir": 4,
+    "raridade": "epica",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/escavadeira-goblin.png"
+  },
+  {
+    "nome": "cavaleiro dourado",
+    "elixir": 4,
+    "raridade": "campeão",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/cavaleiro-dourado.png"
+  },
+  {
+    "nome": "rainha arqueira",
+    "elixir": 5,
+    "raridade": "campeão",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/rainha-arqueira.png"
+  },
+  {
+    "nome": "rei esqueleto",
+    "elixir": 4,
+    "raridade": "campeão",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/rei-esqueleto.png"
+  },
+  {
+    "nome": "mineiro bombado",
+    "elixir": 4,
+    "raridade": "campeão",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/mineiro-bombado.png"
+  },
+  {
+    "nome": "monge",
+    "elixir": 4,
+    "raridade": "campeão",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/monge.png"
+  },
+  {
+    "nome": "fenix",
+    "elixir": 4,
+    "raridade": "lendaria",
+    "evolucao": false,
+    "terrestre": false,
+    "condicaoVitoria": false,
+    "imagem": "/img/fenix.png"
+  },
+  {
+    "nome": "pequeno principe",
+    "elixir": 3,
+    "raridade": "campeão",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/pequeno-principe.png"
+  },
+  {
+    "nome": "vácuo",
+    "elixir": 3,
+    "raridade": "epica",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/vacuo.png"
+  },
+  {
+    "nome": "goblin demolidor",
+    "elixir": 4,
+    "raridade": "rara",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/goblin-demolidor.png"
+  },
+  {
+    "nome": "maquina goblin",
+    "elixir": 5,
+    "raridade": "lendaria",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/maquina-goblin.png"
+  },
+  {
+    "nome": "maldição goblin",
+    "elixir": 2,
+    "raridade": "epica",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/maldicao-goblin.png"
+  },
+  {
+    "nome": "arbusto traicoeiro",
+    "elixir": 2,
+    "raridade": "rara",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": true,
+    "imagem": "/img/arbusto-traicoeiro.png"
+  },
+  {
+    "nome": "goblinstein",
+    "elixir": 5,
+    "raridade": "campeão",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": true,
+    "imagem": "/img/goblinstein.png"
   }
 ] 
