@@ -1,5 +1,5 @@
 .container {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
     text-align: center;
@@ -80,12 +80,13 @@
 }
 
 .tentativa-card {
-    border: 1px solid #ddd;
+    /* border: 1px solid #ddd; */
     margin: 10px auto;
     padding: 10px;
     display: flex;
     align-items: center;
-    max-width: 700px;
+    max-width: 1000px;
+    overflow: hidden;
 }
 
 .tentativa-card img {
@@ -96,16 +97,26 @@
 
 .info-container {
     display: flex;
-    flex: 1;
-    justify-content: space-around;
-    align-items: center;
-    margin-left: 20px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 0;
 }
 
 .info-item {
-    padding: 10px;
+    width: 100px;
+    height: 70px;
+    text-align: center;
+    padding: 5px;
     border-radius: 5px;
-    margin: 0 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-item:nth-child(n+6) {
+    width: 70px;
 }
 
 .correct {
@@ -154,4 +165,35 @@ button[type="submit"]:disabled {
 #timer {
     font-weight: bold;
     color: #4CAF50;
+}
+
+@media (max-width: 768px) {
+    .tentativa-card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-item {
+        width: 80%;
+        margin: 5px 0;
+    }
+}
+
+.tentativas {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+body {
+    background-image: url('../img/fundo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 } 
