@@ -468,6 +468,15 @@
     "imagem": "/img/lava-hound.png"
   },
   {
+    "nome": "mineiro",
+    "elixir": 3,
+    "raridade": "lendaria",
+    "evolucao": false,
+    "terrestre": true,
+    "condicaoVitoria": false,
+    "imagem": "/img/mineiro.png"
+  },
+  {
     "nome": "spark",
     "elixir": 6,
     "raridade": "lendaria",
@@ -619,15 +628,6 @@
     "terrestre": true,
     "condicaoVitoria": false,
     "imagem": "/img/gangue-goblins.png"
-  },
-  {
-    "nome": "bandida",
-    "elixir": 3,
-    "raridade": "lendaria",
-    "evolucao": false,
-    "terrestre": true,
-    "condicaoVitoria": false,
-    "imagem": "/img/bandida.png"
   },
   {
     "nome": "bandida",
