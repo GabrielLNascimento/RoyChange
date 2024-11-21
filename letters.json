@@ -465,7 +465,7 @@
     "nome": "gigante real",
     "elixir": 6,
     "raridade": "comum",
-    "evolucao": false,
+    "evolucao": true,
     "condicaoVitoria": true,
     "tipo": "terrestre",
     "danoArea": false,
